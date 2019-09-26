@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FOR LOOP-02</title>
+</head>
+
+<body>
+ <p id="displayNames"></p>
+ <script>
+  var names =["rohail","partick","andrew","harry"];
+
+  var i=0;
+  var len= names.length;
+  var output = "";
+
+  for( ; i<len ; ){
+    output += names[i] + "<br>";
+    i++;
+  }
+  document.getElementById("displayNames").innerHTML = output;
+ </script>
+
+</body>
+</html>
